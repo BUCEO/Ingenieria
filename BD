@@ -1,0 +1,8 @@
+create database doblefactor;
+use doblefactor;
+create table usuario(
+id int primary key auto_increment,
+nombre varchar(255) not null,
+email varchar(255) not null unique,
+contrasena varchar(255) not null,
+doblefactor varchar(255) null);
